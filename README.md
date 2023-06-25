@@ -5,13 +5,13 @@
 This analysis was done to determine the creditworthiness of borrowers. Utilizing machine learning cuts the need for lenders to determine if a borrower would or would not default on their loan (eg. healthy loan or high-risk loan). 
 
 For this specific program, historical data from a peer-to-peer lending services company was utlizied. The data included: 
--loan size
--interest rate
--borrower income
--debt:income ratio
--number of accounts
--derogatory marks
--total_debt
+- loan size
+- interest rate
+- borrower income
+- debt:income ratio
+- number of accounts
+- derogatory marks
+- total_debt
 
 Looking at the code you will see two sets of X and y value sets
 the X_train/X_test y_train/y_test data comes from splitting the dataset into training and test data.
@@ -28,19 +28,19 @@ With the oversampled data the model was able to discern a healthy loan from a hi
 
 Using bulleted lists, describe the balanced accuracy scores and the precision and recall scores of all machine learning models.
 
--Machine Learning Model 1 - Orginial Data:
---Balance accuracy score = 95% This means that the model is able to truely discern a healthy loan 95% of the time.
---The precison was at 1.00 for healthy loan and 0.85 for hig-risk loans.
---The recall was at 0.99 for healthy loans and 0.91 for high-risk laons.
---Accuracy = 99%
+- Machine Learning Model 1 - Orginial Data:
+ - Balance accuracy score = 95% This means that the model is able to truely discern a healthy loan 95% of the time.
+ - The precison was at 1.00 for healthy loan and 0.85 for hig-risk loans.
+ - The recall was at 0.99 for healthy loans and 0.91 for high-risk laons.
+ - Accuracy = 99%
 
 
  
-* Machine Learning Model 2 - Oversampled Data:
---Balance accuracy score = 99% 
---The precison was at 1.00 for healthy loan and 0.85 for hig-risk loans.
---The recall was at 0.99 for healthy loans and 0.91 for high-risk laons.
---Accuracy = 99%
+- Machine Learning Model 2 - Oversampled Data:
+ - Balance accuracy score = 99% 
+ - The precison was at 1.00 for healthy loan and 0.85 for hig-risk loans.
+ - The recall was at 0.99 for healthy loans and 0.91 for high-risk laons.
+ - Accuracy = 99%
 
 
 ## Summary
