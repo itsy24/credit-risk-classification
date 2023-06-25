@@ -28,7 +28,7 @@ With the oversampled data the model was able to discern a healthy loan from a hi
 
 Using bulleted lists, describe the balanced accuracy scores and the precision and recall scores of all machine learning models.
 
-- Machine Learning Model 1 - Orginial Data:
+Machine Learning Model 1 - Orginial Data:
  - Balance accuracy score = 95% This means that the model is able to truely discern a healthy loan 95% of the time.
  - The precison was at 1.00 for healthy loan and 0.85 for hig-risk loans.
  - The recall was at 0.99 for healthy loans and 0.91 for high-risk laons.
@@ -36,7 +36,7 @@ Using bulleted lists, describe the balanced accuracy scores and the precision an
 
 
  
-- Machine Learning Model 2 - Oversampled Data:
+Machine Learning Model 2 - Oversampled Data:
  - Balance accuracy score = 99% 
  - The precison was at 1.00 for healthy loan and 0.85 for hig-risk loans.
  - The recall was at 0.99 for healthy loans and 0.91 for high-risk laons.
